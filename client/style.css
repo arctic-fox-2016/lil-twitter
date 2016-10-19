@@ -1,0 +1,61 @@
+.container{
+  background-color: #eff0f2;
+}
+
+.menubar-baru  {
+  background-color: #d4e2f9;
+}
+
+.river {
+  background-color: #e5eefc;
+}
+
+.profile {
+  background-color: #eff0f2;
+}
+
+.information {
+  padding: 5px;
+}
+
+.component {
+  padding: 10px;
+}
+
+.feed {
+  padding: 10px;
+}
+
+.createdAt {
+  float:right;
+}
+
+.search {
+  background-color:gray;
+  margin: 10px;
+}
+
+.new-tweet {
+  background-color:blue;
+  margin: 10px;
+}
+
+.little-heading {
+  font-size: 16px;
+}
+
+.little-heading-input {
+  font-size: 16px;
+}
+
+.hide-button {
+  float:right;
+}
+
+.menu-button {
+  margin: 10px;
+}
+
+.spacer {
+  margin: 10px;
+}
