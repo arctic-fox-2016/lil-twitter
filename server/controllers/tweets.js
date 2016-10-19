@@ -63,7 +63,7 @@ function deleteAll(req,res,next){
 function display(req,res,next){
     Tweets.find({},(err,result) => {
           res.json(result)
-    })
+    }).sort( { dtCreated: 1 } )
 }
 
 function detail(req,res,next){
