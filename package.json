@@ -1,0 +1,27 @@
+{
+  "name": "lil-twitter",
+  "version": "0.0.1",
+  "description": "Minimal Version of Twitter, Nothing Fancy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arctic-fox-2016/lil-twitter.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "atandiawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arctic-fox-2016/lil-twitter/issues"
+  },
+  "homepage": "https://github.com/arctic-fox-2016/lil-twitter#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  }
+}
