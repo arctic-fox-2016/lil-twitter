@@ -2,7 +2,7 @@ extends layout
 
 block content
     nav.navbar.navbar-dark.bg-primary
-    // Collapse button
+
         button.navbar-toggler.hidden-sm-up(type='button', data-toggle='collapse', data-target='#collapseEx2')
             i.fa.fa-bars
         .container
@@ -22,6 +22,16 @@ block content
                         a.nav-link Tweets list
                     li.nav-item
                         a.nav-link Hashtag
+    .jumbotron
+        #tweets.col-md-6.col-md-offset-3
+            .card.text-xs-center
+                .card-header.default-color-dark.white-text
+                    | Sahbana
+                .card-block
+                    h4.card-title #firsttweet #introduction
+                    p.card-text Hello Everybody nice to meet you all
 
+                .card-footer.text-muted.default-color-dark.white-text
+                    p Mon Oct 24 2016 08:38:49 GMT+0700 (WIB)
 
 block script
