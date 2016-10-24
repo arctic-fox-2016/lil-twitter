@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    nav.navbar.navbar-dark.bg-primary
+    // Collapse button
+        button.navbar-toggler.hidden-sm-up(type='button', data-toggle='collapse', data-target='#collapseEx2')
+            i.fa.fa-bars
+        .container
+            // Collapse content
+            #collapseEx2.collapse.navbar-toggleable-xs
+                // Navbar Brand
+                a.navbar-brand Little Tweeter
+                // Links
+                ul.nav.navbar-nav
+                    li.nav-item.active
+                        a.nav-link
+                            | Home 
+                            span.sr-only (current)
+                    li.nav-item
+                        a.nav-link Add Tweet
+                    li.nav-item
+                        a.nav-link Tweets list
+                    li.nav-item
+                        a.nav-link Hashtag
+
+
+block script
